@@ -1,4 +1,4 @@
-<img width="1904" height="1132" alt="image" src="https://github.com/user-attachments/assets/6fbd1d03-99cb-4604-9d4e-afea4a402cdc" /># Lab: SQL injection attack, querying the database type and version on Oracle
+# Lab: SQL injection attack, querying the database type and version on Oracle
 
 **Сложность:** Practitioner  
 **Тема:** SQL Injection  
