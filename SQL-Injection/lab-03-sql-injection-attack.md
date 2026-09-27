@@ -1,4 +1,4 @@
-# Lab: SQL injection attack, querying the database type and version on Oracle
+<img width="1904" height="1132" alt="image" src="https://github.com/user-attachments/assets/6fbd1d03-99cb-4604-9d4e-afea4a402cdc" /># Lab: SQL injection attack, querying the database type and version on Oracle
 
 **Сложность:** Practitioner  
 **Тема:** SQL Injection  
@@ -27,5 +27,9 @@
 Начал проверь сколько имеется стоблцов всего с помощью `ORDER BY 1--`. Перебирал до тех пор, пока не выдало ошибку, получилось на третий раз, значит БД имеет два столбца.
 
 ![Решение](images/lab-03-2.png)
+
+После этого я решил вписать `UNION SELECT banner, NULL v$version--`, что оказалось решением этой лабораторной.
+
+![Решение](images/lab-03-3.png)
 
 
