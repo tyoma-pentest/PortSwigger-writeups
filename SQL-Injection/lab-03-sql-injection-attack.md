@@ -26,7 +26,7 @@
 
 ![Решение](images/lab-03-2.png)
 
-После этого я решил вписать `UNION SELECT banner, NULL v$version--`, что оказалось решением этой лабораторной.
+После этого я решил вписать `UNION SELECT banner, NULL FROM v$version--`, что оказалось решением этой лабораторной.
 
 ![Решение](images/lab-03-3.png)
 
