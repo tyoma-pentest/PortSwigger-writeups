@@ -2,6 +2,7 @@
 Мои решения лабораторных работ с PortSwigger Web Security Academy ([tyoma](https://portswigger.net/web-security))
 
 ## Прогресс
+|:---|:---:|:---:|
 | Тема | Пройдено | Всего  |
 | SQL Injection   | 2 | 16 |
 | XSS             | 0 | 30 |
