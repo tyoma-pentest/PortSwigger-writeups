@@ -1,9 +1,8 @@
 # Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
- **Сложность:** Apprentice
- **Тема:** SQL Injection
- **Ссылка** [PortSwigger](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
-
+**Сложность:** Apprentice  
+**Тема:** SQL Injection  
+**Ссылка** [PortSwigger](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)  
 ## 1. Описание уязвимости
 
 Параметр `category` в URL передаётся в SQL-запрос без экранирования.  
@@ -15,6 +14,8 @@
 
 Открыл лабораторную - это интернет-магазин.  
 Обратил внимание на URL при выборе категории.
+
+---
 
 ## 3. Ход решения
 
