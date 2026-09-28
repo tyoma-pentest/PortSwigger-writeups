@@ -1,8 +1,8 @@
 # SQL injection attack, querying the database type and version on MySQL and Microsoft
 
-**Сложность:** Practitioner
-**Тема** SQL Injection
-**Ссылка** [PortSwigger](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft)
+**Сложность:** Practitioner  
+**Тема** SQL Injection  
+**Ссылка** [PortSwigger](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft)  
 
 ## 1. Описание уязвимости
 
