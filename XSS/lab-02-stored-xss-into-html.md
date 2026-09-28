@@ -1,8 +1,8 @@
 # Stored XSS into HTML context with nothing encoded
 
-**Сложность:** Apprentice
-**Тема:** XSS
-**Ссылка** [PortSwigger](https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded)
+**Сложность:** Apprentice  
+**Тема:** XSS  
+**Ссылка** [PortSwigger](https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded)  
 
 ## 1. Описание уязвимости
 
@@ -13,7 +13,7 @@
 
 ## 2. Разведка
 
-Открыл лабораторную, увидел тот же сайт с блогами людей, но только без search, на этот раз под блогами можно оставлять коментарии, что позволит нам внедрить произвольный код.
+Открыл лабораторную, увидел тот же сайт с блогами людей, но только без `search`, на этот раз под блогами можно оставлять коментарии, что позволит нам внедрить произвольный код.
 
 ![Решение](images/lab-02-1-xss.png)
 
@@ -21,6 +21,6 @@
 
 ## 3. Ход  решения
 
-Зашел в один из блогов, увидел что можно оставлять комментарии, написал такой код <script>alert(1)</script>, отправил комментарий, xss-атака была успешно проведена.
+Зашел в один из блогов, увидел что можно оставлять комментарии, написал такой код `<script>alert(1)</script>`, отправил комментарий, xss-атака была успешно проведена.
 
 ![Решения](images/lab-02-2-xss.png)
