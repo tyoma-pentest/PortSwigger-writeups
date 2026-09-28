@@ -1,8 +1,8 @@
 # Reflected XSS into HTML context with nothing encoded
 
-**Сложность:** Apprentice
-**Тема:** XSS
-**Ссылка** [PortSwigger](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
+**Сложность:** Apprentice  
+**Тема:** XSS  
+**Ссылка** [PortSwigger](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)  
 
 ## 1. Описание уязвимости
 
@@ -16,6 +16,7 @@
 Открыл лабораторию, увидел страницу, где люди делятся блогами, обратил внимание на поиск `search`.
 
 ![Решение](images/lab-01-1.png)
+
 ---
 
 ## 3. Ход решения
