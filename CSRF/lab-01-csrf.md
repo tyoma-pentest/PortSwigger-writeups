@@ -24,5 +24,5 @@
 Открыл exploit server (кнопка "Go to exploit server" в лабораторной).
 В поле "Body" вставил вредоносный HTML-код с авто-отправкой формы:
 
-![Решение](images/Screenshot_2026-09-29-23_59_28.png)
+![Решение](images/Screenshot_2026-09-29_23_59_28.png)
 
