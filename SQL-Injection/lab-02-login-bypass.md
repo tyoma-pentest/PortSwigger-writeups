@@ -1,8 +1,8 @@
 # Lab: SQL injection vulnerability allowing login bypass
 
 **Сложность:** Apprentice  
-**Тема** SQL Injection  
-**Ссылка** [PortSwigger](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)  
+**Тема:** SQL Injection  
+**Ссылка:** [PortSwigger](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)  
 
 ## 1. Описание уязвимости
 
