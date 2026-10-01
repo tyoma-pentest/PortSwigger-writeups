@@ -2,7 +2,7 @@
 
 **Сложность:** Apprentice  
 **Тема:** SQL Injection  
-**Ссылка** [PortSwigger](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)  
+**Ссылка:** [PortSwigger](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)  
 ## 1. Описание уязвимости
 
 Параметр `category` в URL передаётся в SQL-запрос без экранирования.  
