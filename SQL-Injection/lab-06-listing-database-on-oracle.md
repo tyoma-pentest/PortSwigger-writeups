@@ -33,4 +33,7 @@
 
 ![Решения](images/Screenshot_2026-10-04_02_38_51.png)
 
-Дальше обратимся в BurpSuite. 
+Дальше обратимся в BurpSuite. Мы знаем о столбцах `PASSWORD_MVRMVT` и `USERS_IXVRFM`, и где они находятся, поэтому мы можем перехватить запрос через BurpSuite и изменить его на такой:`'+UNION+SELECT+PASSWORD_MVRMVT,USERNAME_IXVRMF+FROM+USERS_SUFABT--`. посмотрим на результат:
+
+![Решения](images/Screenshot_2026-10-04_02_50_14.png)
+
