@@ -20,4 +20,13 @@
 
 ## 3. Ход решения
 
+Важно заметить, что Oracle - другая логика. В Oracle нет `information_schema.`, вместо нее - `all_tables` и `all_tab_columns`. Использую `sqlmap` с таким запросом: `sqlmap -u "https://0a17003e036132ab830e29b4009a0007.web-security-academy.net/filter?category=Lifestyle" -dbs`, посмотрим на вывод:
+
+![Решения](images/Screenshot_2026-10-04_02_25_06.png)
+
+Здесь можно заметить, что столбцов - 2, СУДБ - Oracle, как и говорилось в описании лабораторной, схемы: `APEX_040000`, `CTXSYS`, `MDSYS`, `PETER`, `SYS`, `SYSTEM`, `XDB`. Теперь попробуем такой запрос: `sqlmap -u "https://0a17003e036132ab830e29b4009a0007.web-security-academy.net/filter?category=Lifestyle" --batch -D PETER --tables`:
+
+![Решения](images/Screenshot_2026-10-04_02_32_04.png)
+
+
 
