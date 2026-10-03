@@ -29,4 +29,8 @@
 ![Решения](images/Screenshot_2026-10-04_02_32_04.png)
 
 
+Далее я таким запросом узнал содержимые колонны в таблице PETER: `sqlmap -u "https://0a17003e036132ab830e29b4009a0007.web-security-academy.net/filter?category=Lifestyle" --batch -D PETER -T USERS_SUFABT --columns`:
 
+![Решения](imageS/Screenshot_2026-10-04_02_38_51.png)
+
+Дальше обратимся в BurpSuite. 
