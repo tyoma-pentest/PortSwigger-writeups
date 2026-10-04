@@ -12,11 +12,11 @@
 | CSRF | 1 | 8 |
 | SSRF | 0 | 7 |
 | File Upload | 0 | 7 |
-| Path Traversal | 0 | 6 |
+| Path Traversal | 1 | 6 |
 | Access Control | 0 | 13 |
 | Authentication | 0 | 14 |
 | JWT | 0 | 8 |
-| **Итого** | **14** | **109** |
+| **Итого** | **15** | **109** |
 
 ## О себе
 
