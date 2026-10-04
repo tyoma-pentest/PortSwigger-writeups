@@ -23,3 +23,5 @@
 И так, мы узнали что всего 2 колонн, с помощю способа показанного выше. С помощью такого запроса в sqlmap я узнал названия схем, если так можно назвать: s`qlmap -u "https://0a0800c0040222b28008620b0074007e.web-security-academy.net/filter?category=Pets" --dbs`.
 
 ![Решения](images/Screenshot_2026-10-04_21_11_28.png)
+
+А именно: `information_schema`, `pg_catalog`, `public`.
