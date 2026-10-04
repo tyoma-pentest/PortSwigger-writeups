@@ -25,3 +25,6 @@
 
 ![Решения](images/Screenshot_2026-10-04_20_40_57.png)
 
+На этом скриншоте можно увидеть такую строку: `Make the database retrieve the string: 'QWUAQv'`, под текстом: `Back to lab home`. Поэтому, если мы изменим запрос на такой: `'+UNION+SELECT+NULL,'QWUAQv',NULL--` - лаба будет считаться решенной.
+
+![Решения](images/Screenshot_2026-10-04_20_52_30.png)
