@@ -24,4 +24,6 @@
 
 ![Решения](images/Screenshot_2026-10-04_21_11_28.png)
 
-А именно: `information_schema`, `pg_catalog`, `public`.
+А именно: `information_schema`, `pg_catalog`, `public`. Решил посетить `public`, с помощью такого запроса я узнал колонны в двух дб: s`qlmap -u "https://0a0800c0040222b28008620b0074007e.web-security-academy.net/filter?category=Pets" --batch -D public --columns`.
+
+![Решения](images/Screenshot_2026-10-04_21_17_46.png)
