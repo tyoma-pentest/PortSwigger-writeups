@@ -16,4 +16,8 @@
 
 ![Решения](images/Screenshot_2026-10-04_19_48_55.png)
 
-##
+---
+
+## 3. Ход решения
+
+В этой лабе необходимо узнать количество колонн, у меня это получилось сделать через sqlmap с помощью такого запроса: sqlmap -u "https://0a6e001804479876801e5dcb00850048.web-security-academy.net/filter?category=Lifestyle" --dbs -D --batch
