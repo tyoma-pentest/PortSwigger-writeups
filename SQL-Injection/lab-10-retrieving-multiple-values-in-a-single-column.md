@@ -20,3 +20,6 @@
 
 ## 3. Ход решения
 
+После такого запроса в `sqlmap`: `sqlmap -u "https://0a0e003803f3a7e4802fad55008300e4.web-security-academy.net/filter?category=Lifestyle" --batch -D public --columns` я узнал, что в датабазе `public` есть таблицы `users` и `products`, в таблице `users` есть колонны `password`, `email`, `username`. Поэтому нам осталось залезть в логины и пароли и узнать пароль администратора.
+
+![Решения](images/Screenshot_2026-10-05_22_29_22.png)
