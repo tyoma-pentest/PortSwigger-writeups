@@ -24,4 +24,7 @@
 
 ![Решения](images/Screenshot_2026-10-05_22_55_02.png)
 
+Прочитал файл `/etc/passwd`:
+![Решения](images/Screenshot_2026-10-05_22_59_36.png)
+
 ---
