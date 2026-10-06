@@ -21,6 +21,6 @@
 
 Использовал Python-скрипт для перебора символов пароля через `SUBSTRING`. Скрипт отправлял запросы с payload в cookie `TrackingId` и проверял наличие "Welcome back!". Собрал пароль `5iymhe75edzgrv2e63r5`. Вошёл под `administrator`.
 
-![Решения](omages/Screenshot_2026-10-06_20_53_40.png)
+![Решения](images/Screenshot_2026-10-06_20_53_40.png)
 
 ---
