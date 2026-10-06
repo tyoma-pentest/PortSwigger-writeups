@@ -7,16 +7,16 @@
 
 | Тема | Пройдено | Всего |
 |:---|:---:|:---:|
-| SQL Injection | 10 | 16 |
+| SQL Injection | 11 | 16 |
 | XSS | 4 | 30 |
 | CSRF | 1 | 8 |
 | SSRF | 0 | 7 |
 | File Upload | 0 | 7 |
-| Path Traversal | 3 | 6 |
+| Path Traversal | 4 | 6 |
 | Access Control | 0 | 13 |
 | Authentication | 0 | 14 |
 | JWT | 0 | 8 |
-| **Итого** | **18** | **109** |
+| **Итого** | **20** | **109** |
 
 ## О себе
 
