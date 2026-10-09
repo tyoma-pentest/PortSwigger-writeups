@@ -10,13 +10,13 @@
 | SQL Injection | 11 | 16 |
 | XSS | 4 | 30 |
 | CSRF | 1 | 8 |
-| SSRF | 0 | 7 |
+| SSRF | 2 | 7 |
 | File Upload | 0 | 7 |
 | Path Traversal | 4 | 6 |
 | Access Control | 0 | 13 |
 | Authentication | 0 | 14 |
 | JWT | 0 | 8 |
-| **Итого** | **20** | **109** |
+| **Итого** | **22** | **109** |
 
 ## О себе
 
