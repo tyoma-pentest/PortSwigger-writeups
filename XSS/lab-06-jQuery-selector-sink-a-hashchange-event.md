@@ -20,4 +20,4 @@
 
 Уязвимость в jQuery-селекторе: `$(window).on('hashchange', function() { $('section.blog-posts').find(location.hash); })`. Значение из хеша подставляется в `.find()` без проверки. Так как `hashchange` срабатывает только при изменении хеша, открыть URL с payload напрямую не получится. Использовал exploit server с iframe: iframe загружает страницу с `#`, а через `onload` меняет хеш на `<img src=x onerror=print()>`. Срабатывает `hashchange`, jQuery парсит payload и выполняет `print()`. Лаба решена.
 
-<iframe src="https://victim.com/#" onload="this.src+='<img src=x onerror=print()>'"></iframe>
+`<iframe src="https://victim.com/#" onload="this.src+='<img src=x onerror=print()>'"></iframe>`
