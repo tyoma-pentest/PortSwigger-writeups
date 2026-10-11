@@ -1,7 +1,7 @@
 
 # PortSwigger-writeups
 
-Мои решения лабораторных работ с [PortSwigger Web Security Academy](https://portswigger.net/web-security).
+Мои решения лабораторных работ с [PortSwigger Web Security Academy](https://portswigger.net/users/youraccount/personaldetails/tyoma).
 
 ## Прогресс
 
