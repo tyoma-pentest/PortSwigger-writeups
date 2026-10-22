@@ -27,4 +27,4 @@
 - GitHub: [@tyoma-pentest](https://github.com/tyoma-pentest)
 - Telegram: [t.me/leak674](https://t.me/leak674)
   
-*WIP -Work In Progress*
+*WIP - Work In Progress*
