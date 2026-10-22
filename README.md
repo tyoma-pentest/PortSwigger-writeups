@@ -7,16 +7,16 @@
 
 | Тема | Пройдено | Всего | Статус |
 |:---|:---:|:---:|:---:|
-| SQL Injection | 11 | 16 |🟡68%|
-| XSS | 8 | 30 |🟡27%|
-| CSRF | 1 | 8 |🟡13%|
-| SSRF | 4 | 7 |🟡57%|
-| File Upload | 0 | 7 |⏳WIP|
+| SQL Injection | 11 | 16 |🟢68%|
+| XSS | 8 | 30 |🟢27%|
+| CSRF | 1 | 8 |🟢13%|
+| SSRF | 4 | 7 |🟢57%|
+| File Upload | 0 | 7 |🔴 0%|
 | Path Traversal | 6 | 6 |✅ 100%|
-| Access Control | 0 | 13 |⏳WIP|
-| Authentication | 0 | 14 |⏳WIP|
-| JWT | 0 | 8 |⏳WIP|
-| **Итого** | **29** | **109** |**27%**|
+| Access Control | 0 | 13 |🔴 0%|
+| Authentication | 0 | 14 |🔴 0%|
+| JWT | 0 | 8 |🔴 0%|
+| **Итого** | **30** | **109** |**28%**|
 
 ## О себе
 
