@@ -16,7 +16,7 @@
 | Access Control | 0 | 13 |⏳Work In Progress|
 | Authentication | 0 | 14 |⏳Work In Progress|
 | JWT | 0 | 8 |⏳Work In Progress|
-| **Итого** | #29 | **109** |⏳Work In Progress|
+| **Итого** | **29** | **109** |⏳Work In Progress|
 
 ## О себе
 
