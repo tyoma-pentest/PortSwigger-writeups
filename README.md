@@ -12,7 +12,7 @@
 | CSRF | 1 | 8 |⏳Work In Progress|
 | SSRF | 4 | 7 |⏳Work In Progress|
 | File Upload | 0 | 7 |⏳Work In Progress|
-| Path Traversal | 6 | 6 |✅ **Done**|
+| Path Traversal | 6 | 6 |██████████ 100%|
 | Access Control | 0 | 13 |⏳Work In Progress|
 | Authentication | 0 | 14 |⏳Work In Progress|
 | JWT | 0 | 8 |⏳Work In Progress|
