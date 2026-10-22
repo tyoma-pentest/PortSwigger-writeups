@@ -7,16 +7,16 @@
 
 | Тема | Пройдено | Всего | Статус |
 |:---|:---:|:---:|:---:|
-| SQL Injection | 11 | 16 |  🟡 В процессе|
-| XSS | 7 | 30 |  🟡 В процессе|
-| CSRF | 1 | 8 |  🟡 В процессе|
-| SSRF | 4 | 7 |  🟡 В процессе|
-| File Upload | 0 | 7 |  🟡 В процессе|
+| SQL Injection | 11 | 16 |⏳Work In Progress|
+| XSS | 7 | 30 |⏳Work In Progress|
+| CSRF | 1 | 8 |⏳Work In Progress|
+| SSRF | 4 | 7 |⏳Work In Progress|
+| File Upload | 0 | 7 |⏳Work In Progress|
 | Path Traversal | 6 | 6 |✅ **Done**|
-| Access Control | 0 | 13 |  🟡 В процессе|
-| Authentication | 0 | 14 |  🟡 В процессе|
-| JWT | 0 | 8 | 🟡 В процессе |
-| **Итого** | **29** | **109** |  🟡 В процессе|
+| Access Control | 0 | 13 |⏳Work In Progress|
+| Authentication | 0 | 14 |⏳Work In Progress|
+| JWT | 0 | 8 |⏳Work In Progress|
+| **Итого** | **29** | **109** |⏳Work In Progress|
 
 ## О себе
 
