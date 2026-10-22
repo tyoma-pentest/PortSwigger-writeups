@@ -9,8 +9,8 @@
 |:---|:---:|:---:|:---:|
 | SQL Injection | 11 | 16 |🟡68%|
 | XSS | 7 | 30 |🟡23%|
-| CSRF | 1 | 8 |⏳WIP|
-| SSRF | 4 | 7 |⏳WIP|
+| CSRF | 1 | 8 |🟡13%|
+| SSRF | 4 | 7 |🟡57%|
 | File Upload | 0 | 7 |⏳WIP|
 | Path Traversal | 6 | 6 |✅ 100%|
 | Access Control | 0 | 13 |⏳WIP|
